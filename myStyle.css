@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:5px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('images/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    border: 2px solid rgba(255, 255, 255, 0.119);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000d0c;
+    backdrop-filter: blur(5px);
+    
+    
+}
+.self h1{
+    color: #011c1b;
+}
+.body h1{
+    font-size: 30px bold;
+    padding: 20px;
+}
+.self a{
+    color:#0f463b;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.self a:hover{
+    transition: 0.5s ease;
+    background: linear-gradient(90deg,#FF00FF,#0addb3
+    );
+    -webkit-background-clip: text;
+    color:transparent;
+    display: inline-block;
+    font-weight: 600;
+    transition: 0.2s ease;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.self{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.self-intro h2{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px ;
+    border-radius: 5px;
+    text-align: left;
+    background:linear-gradient(90deg,#ff00ffb0,#0addb3bb);
+    
+}
+.self-intro{
+    width: 100%;
+}
+.self-intro p{
+    font-size: 30;
+}
+.self img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding :5px;
+    border: 4px solid black;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.education{
+   text-align: left;
+   width: 100%;
+}
+.education h2{
+    text-align: left;
+    border:0;
+    border-radius: 5px;
+    background:linear-gradient(90deg,#FF00FF,#0addb3);
+}
+.education table{
+    margin-top: 10px;
+    width: 100%;
+    font-family: Arial;
+    border-collapse: collapse border;
+}
+.educational table,th,td{
+    border: 2px solid #060000;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: none;
+}
+th{
+    background:linear-gradient(90deg,#FF00FF,#0addb3);
+}
+.skills ul{
+     padding-left: 20px;
+}
+.attribute{
+    margin-top: 20px;
+    width: 100%;
+}
+.attribute h3{
+    text-align: left;
+    border:0;
+    border-radius: 5px;
+    background:linear-gradient(90deg,#FF00FF,#0addb3);
+}
+.bg h4{
+    border:0;
+    border-radius: 5px;
+    background:linear-gradient(90deg,#FF00FF,#0addb3);
+}
+.app{
+    width: 100%;
+}
+.app h4{
+    border:0;
+    border-radius: 5px;
+    background:linear-gradient(90deg,#FF00FF,#0addb3);
+}
+.app ol{
+    padding-left: 20px;
+}
